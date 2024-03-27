@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Derek Bell">
+<meta name="keywords" content="Carnegie Mellon University, Information Systems">
+<meta name="description" content="Derek Bell's professional website">
+<link rel="stylesheet" href="static/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script defer src="static/script.js"></script>
+<!-- This is for jQuery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <title>Derek Bell</title>
+</head>
+<body onload="addYear()">
+	<header>
+        <h1 id="webName">Derek Bell</h1>    
+        <nav id="myTopnav" class="topnav">
+            <a href="index.html" class="active">Home</a>
+            <a href="views/cv.html">CV</a>
+            <a href="views/contact.html">Contact Me</a>
+            <a href="views/fun.html">For Fun</a>
+            <a href="javascript:void(0);" class="icon"><i class="fa fa-bars" onclick="activeNav()"></i></a>
+        </nav>
+    </header>
+        <div class="main">
+        <h2 id="greeting"></h2>
+        <img class="classA" src ="static/derek-bell_headshot.jpg" alt="Derek Bell profile image"/>
+        <div class="classA" id="intro">
+
+            <span id="shortIntro">
+                I'm currently a<u>Principal Data Applications Administrator</u>within Computing Services.</span>
+            
+            <span id="readMore">Read more...</span>
+            
+            <span id="longIntro">
+                My background is developing business intelligence/data warehousing solutions within the healthcare space.<br/>
+                My current responsibilities include:<br/><br/>
+                &#x2022;&nbsp;Snowflake database and security administration<br/>
+                &#x2022;&nbsp;Tableau server administration<br/>
+                &#x2022;&nbsp;Fivetran data integration<br/><br/>                       
+                All of which is in support of the Enterprise Data Warehouse for the university.</span>
+            
+            <span id="readLess">Read less</span>
+            
+            </div>
+        
+            <!-- <p class="classA" id="intro">
+                I'm currently a<u>Principal Data Applications Administrator</u>within Computing Services. <br/>
+                My background is developing business intelligence/data warehousing solutions within the healthcare space.<br/>
+                My current responsibilities include:<br/><br/>
+                &#x2022;&nbsp;Snowflake database and security administration<br/>
+                &#x2022;&nbsp;Tableau server administration<br/>
+                &#x2022;&nbsp;Fivetran data integration<br/><br/>                       
+                All of which is in support of the Enterprise Data Warehouse for the university.
+            </p> -->
+            </div>
+    <footer>
+        <p id="copyYear">Derek Bell &copy; </p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Derek Bell">
+<meta name="keywords" content="Carnegie Mellon University, Information Systems">
+<meta name="description" content="Derek Bell's professional website">
+<link rel="stylesheet" href="../static/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script defer src="../static/script.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <title>Derek Bell</title>
+</head>
+<body onload="addYear()">
+	<header>
+        <h1 id="webName">Derek Bell</h1>    
+        <nav id="myTopnav" class="topnav">
+            <a href="../index.html">Home</a>
+            <a href="cv.html">CV</a>
+            <a href="contact.html" class="active">Contact Me</a>
+            <a href="fun.html">For Fun</a>
+            <a href="javascript:void(0);" class="icon"><i class="fa fa-bars" onclick="activeNav()"></i></a>
+        </nav>
+    </header>
+        <div class="main">
+        <h2>Contact Me</h2>
+       
+        <!-- <form action="">
+            <label for="name"> Your Name (required):</label>
+            <input type="text" id="name" required/>
+            <label for="email"> Your Email (required):</label>
+            <input type="email" id="email" required/>
+            <label for="comment"> Your Comment or Question:</label>
+            <textarea id="comment" cols="30" rows="10" required></textarea>
+            <input type="submit" value="SEND"/>
+        </form> -->
+
+        <form action="">
+            <label for="UserName">Your name (required): </label>
+            <input type="text" name="UserName" id="UserName" required>
+            <label for="UserEmail">Your email (required): </label>
+            <input type="email" name="UserEmail" id="UserEmail" required>
+            <label for="UserText">Your Comment or Question (required): </label>
+            <textarea name="UserText" id="UserText" cols="30" rows="10" required></textarea>
+            <input type="submit" value="Send" onclick="validate()">
+        </form>
+ 
+        <p id="ValidateMsg"></p>
+        <p></p>
+        <table>
+            <tr><th>Contact Method</th><th>Description</th></tr>
+            <tr><td>Email</td><td><a href="emailto:redacted@andrew.cmu.edu">(redacted)@andrew.cmu.edu</a></td></tr>
+            <tr><td>Phone</td><td>(redacted)</td></tr>
+            <tr><td>LinkedIn</td><td><a href="https://linkedin.com/in/derekbbell" target = "_blank">www.linkedin.com/in/derekbbell</a></td></tr>
+            <tr><td>GitHub</td><td><a href="https://github.com/DerekBBell" target = "_blank">github.com/DerekBBell</a></td></tr>
+        </table>
+        </div>
+    <footer>
+        <p id="copyYear">Derek Bell &copy; </p>
+    </footer>
+</body>
+</html>

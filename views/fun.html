@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Derek Bell">
+<meta name="keywords" content="Carnegie Mellon University, Information Systems">
+<meta name="description" content="Derek Bell's professional website">
+<link rel="stylesheet" href="../static/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script defer src="../static/script.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<!-- This is Google Maps API -->
+<script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <title>Derek Bell</title>
+</head>
+<body onload="addYear()">
+	<header>
+        <h1 id="webName">Derek Bell</h1>    
+        <nav id="myTopnav" class="topnav">
+            <a href="../index.html">Home</a>
+            <a href="cv.html">CV</a>
+            <a href="contact.html">Contact Me</a>
+            <a href="fun.html" class="active">For Fun</a>
+            <a href="javascript:void(0);" class="icon"><i class="fa fa-bars" onclick="activeNav()"></i></a>
+        </nav>
+    </header>
+
+       <div class="mainFun">     
+        <div id="item1">
+            <h2>Things I love to do for fun</h2>
+            <ul id="FavList">
+                <li>PC Strategy games
+                    <details>
+                        <summary>Show list</summary>
+                    <ul>
+                        <li><a href="https://store.steampowered.com/app/1158310/Crusader_Kings_III/" target="_blank">Crusader Kings 3</a></li>
+                        <li><a href="https://store.steampowered.com/app/281990/Stellaris/" target="_blank">Stellaris</a></li>
+                        <li><a href="https://store.steampowered.com/franchise/civilization" target="_blank">Civilization series</a></li>
+                    </ul>
+                    </details>
+                </li>
+                <li>Lego Mindstorms</li>
+                    <details>
+                        <summary>Show list</summary>
+                    <ul>
+                        <li><a href="https://www.lego.com/en-us/product/robot-inventor-51515/" target="_blank">Robot Inventor 51515</a></li>
+                        <li><a href="https://www.lego.com/en-us/product/app-controlled-batmobile-76112/" target="_blank">App-Controlled Batmobile 76112</a></li>
+                        <li><a href="https://www.lego.com/en-us/product/off-road-buggy-42124/" target="_blank">Off-Road Buggy 42124</a></li>
+                    </ul>
+                </details>                    
+                <li>Go Karting</li>
+                <li>Hiking</li>
+                <li>Baking</li>
+                <li>Grilling</li>
+            </ul>
+        </div>
+        <div id="item2">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/_j5GgGdSwjE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>   
+        </div>
+        <div id="item3">
+            <h3>My favorite places</h3>
+            <!--The div element for the map -->
+             <div id="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d230956.80026428556!2d-80.20949837031205!3d40.48537646956441!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x883467b8637d32df%3A0xa2bb466a8bf98804!2sThree%20Rivers%20Karting%20Entertainment%20Park!5e0!3m2!1sen!2sus!4v1711498061809!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>         
+
+        </div>
+        <div id="item4">
+            <img src="../static/Stronger-Than-Hate-logo.jpg" id="funIMG">
+
+        </div>
+</div>
+
+       <!-- https://youtu.be/_j5GgGdSwjE?feature=shared        -->
+
+      <!-- <button id="SeeMoreBTN" onclick="showList()">Click to see...</button>
+-->
+
+
+        <!-- <ul id="FavList">
+            <li>PC Strategy games
+                <ul>
+                    <li><a href="https://store.steampowered.com/app/1158310/Crusader_Kings_III/" target="_blank">Crusader Kings 3</a></li>
+                    <li><a href="https://store.steampowered.com/app/281990/Stellaris/" target="_blank">Stellaris</a></li>
+                    <li><a href="https://store.steampowered.com/franchise/civilization" target="_blank">Civilization series</a></li>
+                </ul>
+            </li>
+            <li>Lego Mindstorms</li>
+                <ul>
+                    <li><a href="https://www.lego.com/en-us/product/robot-inventor-51515/" target="_blank">Robot Inventor 51515</a></li>
+                    <li><a href="https://www.lego.com/en-us/product/app-controlled-batmobile-76112/" target="_blank">App-Controlled Batmobile 76112</a></li>
+                    <li><a href="https://www.lego.com/en-us/product/off-road-buggy-42124/" target="_blank">Off-Road Buggy 42124</a></li>
+                </ul>
+            <li>Go Karting</li>
+            <li>Hiking</li>
+            <li>Baking</li>
+            <li>Grilling</li>
+        </ul> -->
+
+    <footer>
+        <p id="copyYear">Derek Bell &copy; </p>
+    </footer>
+</body>
+</html>

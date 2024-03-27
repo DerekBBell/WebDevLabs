@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Derek Bell">
+<meta name="keywords" content="Carnegie Mellon University, Information Systems">
+<meta name="description" content="Derek Bell's professional website">
+<link rel="stylesheet" href="../static/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script defer src="../static/script.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <title>Derek Bell</title>
+</head>
+<body onload="addYear()">
+	<header>
+        <h1 id="webName">Derek Bell</h1>    
+        <nav id="myTopnav" class="topnav">
+            <a href="../index.html">Home</a>
+            <a href="cv.html" class="active">CV</a>
+            <a href="contact.html">Contact Me</a>
+            <a href="fun.html">For Fun</a>
+            <a href="javascript:void(0);" class="icon"><i class="fa fa-bars" onclick="activeNav()"></i></a>
+        </nav>
+    </header>
+        <div class="main">
+        <h2>Curriculum Vitae</h2>
+       
+        <table><tr><th>Institute/Organization</th><th>Description</th></tr>
+            <tr><td style="align-content: center;">Carnegie Mellon University</td>
+                <td>Member of the Data and Digital Enablement Team, providing enterprise data warehouse and business intelligence solutions across the university and its related activities.
+                    <ul>
+                        <li>Snowflake site administrator. Responsible for deploying databases, associated objects, roles, and security permissions. Maintain and develop alerts, providing visibility of RBAC changes and warehouse utilization. Provide business teams with introduction, technical training, and support as part of the data migration process.
+                        </li><li>Perform and monitor data integrations through Fivetran (Cloud and LDP), managing LDP Hub servers and coordinating LDP Agent deployments with the DBA team.
+                        </li><li>Coordinate between D&DE team and Data Governance Office. Develop and deploy changes to Snowflake.
+                        </li>
+                    </ul>                    
+                </td>
+            </tr>
+            <tr><td style="align-content: center;">Aetna Insurance</td>
+                    <td>Member of the Medicare Sales Reporting Team, providing technical and data analysis support for Medicare Individual Sales across the organization. 
+                        <ul>
+                            <li>Monitor and troubleshoot backend ELT activities on database servers [SQL Server 2019], update existing and develop new SSIS packages to run on current release.  
+                            </li><li>Generate ad hoc reporting and analysis to resolve questions regarding individual Medicare enrollment processing.  
+                            </li><li>Enhance existing extracts to improve throughput and provide better results.  Work includes querying and obtaining results from other RDBS, including Oracle and DB2.
+                            </li>
+                        </ul>                            
+                    </td>
+            </tr>
+            <tr><td style="align-content: center;">Pharmacy Quality Solutions</td>
+                <td>Supervise business intelligence/analytics team and execute data management projects. 
+                    <ul>
+                        <li>Took data warehouse from concept to initial implementation within nine months.  
+                        </li><li>Created SSIS packages that manage client data sets dynamically whenever supporting database objects are created.  Wrote specialized SSIS package to support various forms of slowly changing dimensions, which was necessary due to data export specifications and design practices within the production environment.  
+                        </li><li>Implemented reporting packages that support standard and custom layouts, vastly increasing the total reports that could be generated while reducing the total effort required to generate and deploy them.
+                        </li><li>Automated computation of national and state decile benchmark results across measurement sets.
+                        </li>
+                    </ul>
+                </td>
+            </tr>
+                <tr><td style="align-content: center;">UPMC Presbyterian/Shadyside</td>
+                    <td>Technical lead within Quality Improvement department &ndash; Responsible for directing and developing the technical projects, data analysis, and reporting needs to meet organizational, corporate, and regulatory requirements.
+                        <ul>
+                            <li>Lead analyst and subject matter expert for Data Warehouse/Cognos and Crimson Continuum of Care platforms.
+                            </li><li>Constructed departmental SQL Server databases [SQL Server 2008/2008 R2] and web applications to collect, organize, and report on hospital performance measures, which eliminated most of the manual effort to update reports and dashboards.  
+                            </li><li>Automated patient satisfaction data extraction, resulting in a 10-fold reduction in processing time.  
+                            </li><li>Developed solution to generate and distribute monthly patient satisfaction results to attending hospital physicians (1200+).
+                            </li>
+                        </ul>                            
+                    </td>
+                </tr>    
+                <tr><td style="align-content: center;">UPMC Passavant</td>
+                    <td>Responsible for the development/implementation of complex technical solutions to fulfill the reporting and software needs of both internal and enterprise customers.
+                        <ul>
+                            <li>Data warehouse reporting including clinical, financial, patient accounting, admissions, and regulatory submissions.
+                            </li><li>Automated reporting and data transfers between Passavant and other business units.
+                            </li><li>Developed balanced scorecard website for tracking KPIs and was first UPMC hospital to do so.
+                            </li><li>Generated data sets and perform other conversion tasks necessary to provide Passavant data through corporate data warehouse schemas.  
+                            </li><li>Developed and maintained conversion package that transformed Passavant Data Warehouse (based on Meditech) into native Medipac nightly extract files for the UPMC Corporate Data Warehouse.  <b>Out of three hospitals within UPMC directed to develop this capability, only Passavant completed on schedule and incurred zero external costs.</b>
+                            </li>
+                        </ul>                        
+                    </td>
+                </tr>    
+        </table>
+        <br/>
+        <a href="../static/DerekBBell_2024.pdf" target = "_blank">My Resume - pdf version</a>
+        </div>
+    <footer>
+        <p id="copyYear">Derek Bell &copy; </p>
+    </footer>
+</body>
+</html>
